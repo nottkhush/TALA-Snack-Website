@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #d1d1d1;
+    font-family: "attila sans";
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+body{
+    background-color: #222;
+    overflow-x: hidden;
+}
+
+#main{
+    position: relative;
+    background-color: #222;
+}
+
+#full-scr-nav{
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+    position: absolute;
+    top: -100vh;
+    transition: all ease 0.7s;
+    padding: 120px 150px;
+    color: #222;
+    z-index: 999;
+}
+
+#full-scr-nav h1{
+    font-size: 200px;
+    color: #222;
+}
+
+#full-scr-nav #content{
+    display: flex;
+}
+
+#full-scr-nav #content-left{
+    margin-top: 150px;
+    margin-left: 30px;
+    height: 170px;
+    width: 150px;
+}
+
+#full-scr-nav #content-left h3{
+    color: #222;
+    font-size: 25px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+#full-scr-nav #content-right{
+    height: 170px;
+    width: 150px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+#full-scr-nav #content-right h3{
+    color: #222;
+    font-size: 25px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 50px;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+
+#nav h2{
+    font-size: 26px;
+    letter-spacing: 1px;
+    transition: all ease 0.7s;
+}
+
+#nav h3{
+    font-size: 26px;
+    letter-spacing: 1px;
+    transition: all ease 0.7s;
+}
+
+#nav-prt2{
+    display: flex;
+    transition: all ease 0.7s;
+    gap: 50px;
+    align-items: center;
+}
+
+#nav-prt2 i{
+    font-size: 30px;
+    transition: all ease 0.7s;
+    cursor: pointer;
+}
+
+#page1{
+    min-height: 80vh;
+    width: 100vw;
+    position: relative;
+}
+
+#page1 h1{
+    position: absolute;
+    left: 5.5%;
+    top: 24%;
+    letter-spacing: 15px;
+    font-size: 13vw;
+}
+
+#page1 h2{
+    position: absolute;
+    left: 24%;
+    top: 73%;
+    color: #D5CDC4;
+    line-height: 2.6vw;
+    font-size: 3vw;
+    width: 34%;
+}
+
+#page1 h3{
+    position: absolute;
+    color: #D5CDC4;
+    left: 78%;
+    top: 55%;
+    line-height: 0.8vw;
+    font-size: 0.8vw;
+    width: 10%;
+}
+
+#page2 img{
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0) scale(0.9);
+}
+
+#page2{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 20vh;
+}
+
+#page2 h1{
+    font-size: 48px;
+    width: 61%;
+    transform: rotateX(270deg);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transform-origin: 100% 100%;
+    opacity: 0;
+}
+
+#h11{
+    margin-top: 20vh ;
+}
+
+#page2 h1 span{
+    font-family: "dancing script";
+}
+
+#page4{
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    padding: 60px 90px;
+}
+
+#page4 h1{
+    opacity: 0;
+    font-size: 7.8vw;
+}
+
+#page5{
+    height: 130vh;
+    width: 100vw;
+    /* background-color: red; */
+}
+
+#page5-elems{
+    height: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+#page5-elems h1{
+    opacity: 1;
+    width: 70%;
+    /* background-color: yellow; */
+    height: 100%;
+    font-size: 60px;
+    padding: 20px 80px;
+    border: 1px solid #d1d1d1;
+}
+
+#page5-elems h2{
+    opacity: 1;
+    width: 30%;
+    /* background-color: green; */
+    height: 100%;
+    font-size: 22px;
+    padding: 40px 80px;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+#page5-content{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://assets-global.website-files.com/61defec4a021d8fe954c11bd/61defec4a021d83ede4c11f8_stars.gif);
+    padding: 200px 0;
+}
+
+#page5-content h1{
+    font-size: 3.6vw;
+    width: 60%;
+    text-align: center;
+    line-height: 3vw;
+}
+
+#page5-content h1 span{
+    font-family: "dancing script";
+    font-size: 4.2vw;
+}
+
+#page5-content h4{
+    font-size: 0.9vw;
+    width: 30%;
+    margin-top: 60px;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+#page6 .slide1-of-h1{
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: default;
+}
+
+#page6 .slide2-of-h1{
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: default;
+}
+
+#page6 .slide1-of-h1::-webkit-scrollbar{
+    display: none;
+}
+
+#page6 .slide2-of-h1::-webkit-scrollbar{
+    display: none;
+}
+
+#page6 .slide2-of-h1 h1{
+    transform: translateX(-100%);
+}
+
+#page6 h1{
+    font-size: 17vw;
+    text-transform: uppercase;
+    line-height: 30vh;
+}
+
+#page6 h1 .one2{
+    color: transparent;
+    -webkit-text-stroke: 1px #adadad;
+}
+
+#page7{
+    height: 100vh;
+    width: 100vw;
+    background-color: #222;
+    padding: 180px 50px;
+    text-align: center;
+}
+
+#page7 h3{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3vw;
+    width: 50%;
+}
+
+#page7 h3 span{
+    font-family: "dancing script";
+    font-size: 3.8vw;
+}
+
+#page7-elems{
+
+    display: flex;
+    height: 45vh;
+    margin-top: 5vh;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+#page7-elems #element1{
+    
+    height: 100%;
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: none;
+}
+
+#page7-elems #element2{
+    
+    height: 100%;
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: none;
+}
+
+#page7-elems #element1 h1{
+    font-size: 40px;
+    z-index: 99;
+    position: relative;
+}
+
+#page7-elems #element2 h1{
+    font-size: 40px;
+    z-index: 99;
+    position: relative;
+}
+
+#page7-elems #element1 img{
+    position: absolute;
+    opacity: 0;
+    width: 250px;
+    height: 250px;
+    transition: opacity ease-in 0.2s;
+    transform: rotate(10deg);
+}
+
+#page7-elems #element2 img{
+    position: absolute;
+    opacity: 0;
+    width: 250px;
+    height: 250px;
+    transition: opacity ease-in 0.2s;
+    transform: rotate(10deg);
+}
